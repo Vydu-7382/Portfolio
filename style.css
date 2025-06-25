@@ -1,67 +1,91 @@
 *{
-    background-color:black;
     padding: 0;
     margin: 0;
-}
+    background-color:white;
+}    
 .navbar{
-    height: 90px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-}
-.nav-right{
+    height:100px;
     padding-left: 1200px;
-    flex-direction: row;
-    align-items: center;
-    font-size:larger;
 }
 .a{
-    padding: 20px;
-    color:white;
+    padding:10px;
+    color:black;
+    font-size: large;
 }
 .home{
-    background-color:black;
-     display: flex;
+    display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-    height: 300px;
-}
-.home-left{
-    color:white;
-    background-color: black;
-    padding: 10px;
-    padding-left: 10px;
-}
-h1,p{
-    text-align: center;
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-bottom: 50px;
+    height:110px;
 }
 h1{
-    color:#42c5f5;
+    color:black;
+    text-align: center;
 }
 h2{
-    color:yellow;
-    padding-left: 50px;
+    color:purple;
+    padding-left:60px;
+    padding-top: 20px;
 }
-
+.image{
+      padding-top: 60px;
+      padding-right: 250px;
+}
 .img{
     float:right;
     width: 200px;
     height: 200px;
     border-radius: 100%;
 }
+p{
+    color:black;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.box{
+    padding-bottom: 100px;
+    margin: 50px;
+}
+.c{
+    padding-left: 30px;
+    
+}
 h3{
-    color:magenta;
+    color:black;
+    padding-left: 30px;
+    padding-bottom: 10px;
 }
 .b{
-    color: white;
+    color:black;
+    padding-bottom: 10px;
 }
-.Skills{
-    padding:10px;
-    padding-left: 40px;
+.fa {
+  padding: 20px;
+  padding-top: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color:green;
+}
+.mail{
+    text-align: center;
+}
+.icon{
+    text-align: center;
+}
+.img1{
+    height: 50px;
 }
 
-
+    
+   
